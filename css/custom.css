@@ -1,4 +1,6 @@
-/* --------------- Jumbotron --------------- */
+/* ==========================================================================
+   JUMBOTRON
+   ========================================================================== */
 .jumbotron {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -16,51 +18,48 @@
     max-width: 40rem;
 }
 
-/* --------------- card --------------- */
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
-.card-img-top {
+/* ==========================================================================
+   CARD
+   ========================================================================== */
+.card-square-img {
     width: 100%;
     height: 15rem;
     object-fit: cover;
 }
 
-.my-card-round {
-    text-align: center;
-}
-
-.my-card-round-img {
+/* Card - Round
+   ========================================================================== */
+.card-round-img {
     width: 240px;
     height: 240px;
     object-fit: cover;
 }
 
-.upload-thumb {
+/* Card - Upload
+   ========================================================================== */
+.card-upload-img {
+    max-width: 90%;
+    object-fit: cover;
+}
+
+.card-upload-img-small {
     width: 30rem;
     height: 20rem;
     object-fit: cover;
 }
 
-.upload-thumb2 {
-    max-width: 90%;
-    object-fit: cover;
-}
-
-.card-img-details {
+/* Card - Details
+   ========================================================================== */
+.card-details-img {
     width: 100%;
-
     object-fit: cover;
 }
 
-/* ------ */
 
+/* ==========================================================================
+   ETC
+   ========================================================================== */
 .my-input {
     border: 0;
     outline: 0;
@@ -68,7 +67,14 @@
     border-bottom: 1px solid #f5f5f5;
   }
 
-/* --------------- Footer --------------- */
+.text-center {
+    text-align: center;
+}
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
 .footer {
     background-color: #f5f5f5;
 }
@@ -77,7 +83,10 @@ footer p {
     margin-bottom: .25rem;
 }
 
-/* --------------- Media querie --------------- */
+
+/* ==========================================================================
+   MEDIA QUERIE
+   ========================================================================== */
 @media (min-width: 768px) {
     .jumbotron {
         padding-top: 6rem;

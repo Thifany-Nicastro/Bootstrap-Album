@@ -13,9 +13,10 @@
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
+    <!-- Font Awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
 
-    <title>Title</title>
+    <title>Home</title>
 </head>
 
 <body class="d-flex flex-column h-100 bg-light">
@@ -119,7 +120,7 @@
                     <!-- --------------- row 1 card 1 ---------------  -->
                     <div class="col-lg teste">
                         <div class="card mb-4 shadow-sm">
-                            <img src="img/tulips.jpg" class="card-img-top">
+                            <img src="img/tulips.jpg" class="card-square-img">
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#" class="card-link">Card title</a><span
                                         class="badge badge-primary float-right">New</span></h5>
@@ -142,7 +143,7 @@
                     <!-- --------------- row 1 card 2 ---------------  -->
                     <div class="col-lg teste">
                         <div class="card mb-4 shadow-sm">
-                            <img src="img/tulips.jpg" class="card-img-top">
+                            <img src="img/tulips.jpg" class="card-square-img">
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#" class="card-link">Card title</a></h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -164,7 +165,7 @@
                     <!-- --------------- row 1 card 3 ---------------  -->
                     <div class="col-lg teste">
                         <div class="card mb-4 shadow-sm">
-                            <img src="img/tulips.jpg" class="card-img-top">
+                            <img src="img/tulips.jpg" class="card-square-img">
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#" class="card-link">Card title</a></h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -190,7 +191,7 @@
                     <!-- --------------- row 2 card 1 ---------------  -->
                     <div class="col-lg teste">
                         <div class="card mb-4 shadow-sm">
-                            <img src="img/tulips.jpg" class="card-img-top">
+                            <img src="img/tulips.jpg" class="card-square-img">
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#" class="card-link">Card title</a></h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -212,7 +213,7 @@
                     <!-- --------------- row 2 card 2 ---------------  -->
                     <div class="col-lg teste">
                         <div class="card mb-4 shadow-sm">
-                            <img src="img/tulips.jpg" class="card-img-top">
+                            <img src="img/tulips.jpg" class="card-square-img">
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#" class="card-link">Card title</a></h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -234,7 +235,7 @@
                     <!-- --------------- row 2 card 3 ---------------  -->
                     <div class="col-lg teste">
                         <div class="card mb-4 shadow-sm">
-                            <img src="img/tulips.jpg" class="card-img-top">
+                            <img src="img/tulips.jpg" class="card-square-img">
                             <div class="card-body">
                                 <h5 class="card-title"><a href="#" class="card-link">Card title</a></h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -357,8 +358,8 @@
         });
 
         function round() {
-            $(".teste").addClass("my-card-round");
-            $(".teste").html("<img src='img/tulips.jpg' class='my-card-round-img rounded-circle mb-3'>" +
+            $(".teste").addClass("card-round text-center");
+            $(".teste").html("<img src='img/tulips.jpg' class='card-round-img rounded-circle mb-3'>" +
                 "<div class='card mb-4 shadow-sm'>" +
                 "<div class='card-body'>" +
                 "<h5 class='card-title'><a href='#' class='card-link'>Card title</a></h5>" +
@@ -378,9 +379,9 @@
         }
 
         function square() {
-            $(".teste").removeClass("my-card-round");
+            $(".teste").removeClass("card-round text-center");
             $(".teste").html("<div class='card mb-4 shadow-sm'>" +
-                "<img src='img/tulips.jpg' class='card-img-top'>" +
+                "<img src='img/tulips.jpg' class='card-square-img'>" +
                 "<div class='card-body'>" +
                 "<h5 class='card-title'><a href='#' class='card-link'>Card title</a></h5>" +
                 "<h6 class='card-subtitle mb-2 text-muted'>Card subtitle</h6>" +
